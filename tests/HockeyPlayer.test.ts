@@ -1,6 +1,6 @@
 import HockeyPlayer from "../src/HockeyPlayer";
 
-describe("RedWingsPlayer Class",()=> {
+describe("HockeyPlayer Class",()=> {
     test("parameters set from constructor", () => {
         const player = new HockeyPlayer("Dylan Larkin",71,"Center","Detroit,MI",0,true);
         expect(player.playerName).toBe("Dylan Larkin");
